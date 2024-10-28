@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #05464b;
+  color: white;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.nav-login,
+.nav-register,
+.nav-logout {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-login button,
+.nav-register button,
+.nav-logout button {
+  width: 102px;
+  height: 49px;
+  outline: none;
+  border: none;
+  border-radius: 75px;
+  color: rgb(97, 14, 79);
+  cursor: pointer;
+  background-color: white; /* Added background color for visibility */
+}
+
+.nav-login button:active,
+.nav-register button:active,
+.nav-logout button:active {
+  background-color: rgb(148, 7, 30);
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+
+.rightSide a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}

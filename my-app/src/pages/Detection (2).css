@@ -1,0 +1,39 @@
+.detection-page-container {
+    max-width:fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(186, 218, 226);
+  }
+  
+  .description-section,
+  .image-upload-section,
+  .symptoms-section {
+    background-color:rgb(231, 237, 241);
+    box-shadow: 0 0 10px rgba(148, 59, 59, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .image-upload-section img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .disease-symptoms {
+    margin-top: 20px;
+  }
+  
+  .disease-symptoms h3 {
+    color: #6e063a;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }

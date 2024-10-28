@@ -1,0 +1,36 @@
+#services-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 15px;
+    background-color: rgb(186, 218, 226);
+  }
+  
+  
+  .service-box {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-box img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .h-secondary {
+    color: #333;
+  }

@@ -1,0 +1,28 @@
+header {
+    background-color:navajowhite;
+    color:teal;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  section.Treatment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 2px solid #3498dbdf; 
+    background-color: rgb(186, 218, 226);
+    margin-bottom: 10px; 
+  }
+  
+  img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .Treatment-details {
+    max-width: 600px;
+  }

@@ -1,0 +1,37 @@
+#about-us-container {
+    background-color: rgb(186, 218, 226);
+      padding: 40px 0;
+      text-align: center;
+    }
+    
+    
+    #about-us-container header {
+      margin-bottom: 20px;
+    }
+    
+    .about-content {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    
+    .about-content p {
+      margin-bottom: 20px;
+    }
+    
+    .fruit-images {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    
+    .fruit-images img {
+      width: 100px;
+      height: 100px;
+      margin: 0 10px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    

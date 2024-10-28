@@ -1,0 +1,52 @@
+.product-list-container {
+    margin: auto;
+    height: 100vh;
+     padding: 100;
+    background-image: url('https://www.fera.co.uk/media/hero/Featured_image_v4_3.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+  
+  }
+  
+  
+  .product-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin:auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product-box a {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-box a:hover {
+    background-color: #135079;
+  }
